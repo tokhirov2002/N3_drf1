@@ -7,4 +7,3 @@ from .serializers import ProductSerializers
 class ProductViews(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializers
-
